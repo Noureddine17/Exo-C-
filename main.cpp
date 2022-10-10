@@ -59,15 +59,94 @@ int main (){
 
 }*/
 
+/* EXERCICE 5 :
+
 int main (){
-    int prixHT;
+    double prixHT, kg,prixTTC,tva;
+
+    cout << "Entrez le prix HT d'un kg de tomates"<<endl;
     cin >>prixHT;
-    int prixTTC;
-    prixTTC= prixHT*1.2;
+    cout << "Entrez le nombre de kg "<<endl;
+    cin >>kg;
+    cout<< "Entrez le taux de tva"<<endl;
+    cin >> tva;
+
+    prixTTC = (((prixHT*tva/100)+prixHT)*kg);
     cout<<"Le pris TTC est de "<< prixTTC<<endl;
 
+}*/
 
+/*"------------------------------------------------------------------"*/
+
+/*
+ * ***PARTIE - 2 ***
+
+ * EXERCICE 1 :
+
+
+int main(){
+
+    int entier;
+    cin >> entier;
+
+    if (entier>=56 && entier<=76){
+        cout << "GAGNE"<<endl;
+    }
+
+   else{
+        cout << "PERDU"<<endl;
+    }
+
+}*/
+
+/* EXERCICE 2 :
+
+
+int main (){
+    int i ;
+    for(i=8; i<=23; i++){
+        cout<<i<<endl;}
+
+}*/
+
+/* EXERICE 3 :
+
+int main(){
+    int i=8;
+    while(i<=23){
+        cout<<i<<endl;
+        i++;
+
+    }
+}*/
+
+/* EXERCICE 4 :
+int main() {
+    int nbr;
+    int compteur;
+    int somme;
+    while (compteur != 10){
+        cin >> nbr;
+        somme+=nbr;
+        compteur++;
+        cout << somme<<endl;
+
+    }
+
+}*/
+
+int main(){
+    int nbr;
+    int compteur;
+    int temp;
+    while ( compteur !=10){
+        cin >> nbr;
+        if(nbr){
+            compteur++;
+            temp=nbr;}
+        else if(nbr>temp);{
+            temp = nbr;
+        }
+        cout << "le plus petit est "<<temp<<endl;
+    }
 }
-
-
-
