@@ -135,18 +135,87 @@ int main() {
 
 }*/
 
+/* EXERCICE 5:
+
+int main(){
+    int nbr=0;
+    int temp=0;
+    int compteur;
+    cin >> temp;
+    for(compteur=0 ;compteur<9 ;compteur++){
+        cin >> nbr;
+        if(temp>nbr){
+            temp=nbr;
+        }
+
+    }
+    cout << "le plus petit est "<<temp<<endl;
+}*/
+
+
+/*  EXERCICE 6:
+
+
+
+int main(){
+    int nbr(0);
+    int input;
+
+        cout << "Entrez voter nombre"<<endl;
+        cin >> nbr;
+    do{
+        cout << " 1. pour ajouter 1 a votre nombre\n 2.pour multiplie par 2 votre nombre\n 3.pour soustraire 4\n 4.pour quitter "<<endl;
+        cin >> input;
+
+        switch (input){
+
+        case 1:
+            nbr+=1;
+            cout << nbr<<endl;
+            break;
+
+        case 2:
+            nbr*=2;
+            cout << nbr<<endl;
+            break;
+
+        case 3:
+            nbr=-4;
+            cout << nbr <<endl;
+            break;
+
+        case 4:
+            break;
+        }
+    }
+    while(input!=4);
+
+
+
+}*/
+
+
 int main(){
     int nbr;
-    int compteur;
-    int temp;
-    while ( compteur !=10){
-        cin >> nbr;
-        if(nbr){
-            compteur++;
-            temp=nbr;}
-        else if(nbr>temp);{
-            temp = nbr;
-        }
-        cout << "le plus petit est "<<temp<<endl;
+    int somme;
+    int moyenne;
+    cout << "Entrez un entier positif"<<endl;
+    cin >> nbr;
+    moyenne++;
+    do {
+    if(nbr<0){
+        cout << "Erreur, Re tapez votre nombre" << endl;
+         }
     }
-}
+    while(nbr);
+    if(nbr>0) {
+
+        somme+=nbr;
+        cout << "Moyenne de "<< somme/moyenne<<endl;
+
+        }
+    if (nbr==0){
+        break;
+    }
+  }
+
